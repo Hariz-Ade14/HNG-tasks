@@ -1,0 +1,86 @@
+       body{
+        background-color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        padding: 10px;
+        margin: 0;
+       }
+       .head{
+        color: rgb(57, 143, 184);
+        position: fixed;
+        margin: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        padding: 5px;
+        z-index: 1;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       }
+       .head h2{
+          font-weight: lighter;
+          margin-bottom: 0px;
+          margin: 0;
+       }
+       .head span{
+        color: rgb(172, 220, 241);
+          
+
+       }
+       .dateandTime{
+       
+        margin-right: 10px;
+        padding: 0px;
+       }
+       .dateandTime div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px;
+        padding: 0;
+
+       }
+       .sec{
+         margin: 10px;
+         width: 30px;
+       }
+       .goals{
+            margin-top: 70px;
+            color: white;
+
+       }
+       .goals h2{
+        font-weight: lighter;
+        color: orange;
+
+       }
+       img{
+         
+         border-radius: 50%;
+         display: flex;
+         margin: 100px auto;
+        
+       }
+       .footer h3{
+         text-align: center;
+         font-weight: lighter;
+         color: rgb(255, 136, 0);
+       }
+       .hngLinks{
+         margin: 30px 0px;
+       }
+       .hngLinks a{
+         color: white;
+       }
+       button{
+           width: 200px;
+           border: none;
+           outline: none;
+           background-color: cornflowerblue;
+           border-radius: 10px;
+           padding: 10px;
+           margin-top: 20px;
+       }
+
